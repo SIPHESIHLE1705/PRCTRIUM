@@ -33,16 +33,16 @@ class MainActivity : AppCompatActivity() {
             / Calculate total and average screen time
             var totalScreenTime = 0
             val stringBuilder = StringBuilder()
-            for (i in morningScreenTime.indices) {
-                val dailyTotal = morningScreenTime[i] + afternoonScreenTime[i]
-                stringBuilder.append("Day ${i + 1}: Morning = ${MAX[i]} mins, Afternoon = ${afternoonScreenTime[i]} mins, Total = $dailyTotal mins\n")
-                totalScreenTime += dailyTotal
+            for (i in min.indices) {
+                val dailyTotal = MinTemperture[i] + {MaxTemperture[i]
+                stringBuilder.append("Day ${i + 1}: MinTemperture = ${MAX[i]} min, MaxTemperture = ${MaxTemperture[i]} mins, Total = $dailyTotal mins\n")
+                totalTempeture += dailyTotal
             }
-            val averageScreenTime = totalScreenTime / morningScreenTime.size
+            val averageTemperature = totalTemperture / minTemperature.size
 
-            stringBuilder.append("\nAverage Screen Time Over a Week: $averageScreenTime mins")
+            stringBuilder.append("\nAverage Temperature Over a Week: $averageTemperature mins")
 
-            textViewScreenTime.text = stringBuilder.toString()
+            textViewTemperature.text = stringBuilder.toString()
 
             buttonBack.setOnClickListener {
                 finish()
