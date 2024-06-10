@@ -8,11 +8,11 @@ class detailedviewscreen : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detailedviewscreen)
         //screen showing detalied informtion for each day days temperture
-        val name = ""
-        val days :Array<=intent.getStringArrayExtra(name:"days")
-        val min : >=intent.getStringArrayExtra(name:"min")
-        val max ?=intent.getStringArrayExtra(name:"mix")
-        val conditions:Array=intent.getIntArrayExtra(name:"conditions ")
+        
+        val days :Array<(OUT)=intent.getStringArrayExtra(name:"days")
+        val min :ArrayList<int!>?=intent.getStringArrayExtra(name:"min")
+        val max:ArrayList<int!>/?=intent.getStringArrayExtra(name:"mix")
+        val conditions:Array<(Out)sting>/=intent.getIntArrayExtra(name:"conditions ")
 
 
 
