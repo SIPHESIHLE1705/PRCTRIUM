@@ -15,6 +15,13 @@ class MainActivity : AppCompatActivity() {
         val btnNext = findViewById<Button>(R.id.btnNext)
         val exitButton = findViewById<Button>(R.id.btnExit)
 
+
+
+
+
+
+        
+
         btnNext.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
