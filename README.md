@@ -32,3 +32,19 @@ class MainActivity : AppCompatActivity() {
         }
     }
 }
+
+
+pseudocode
+        0.start
+        delcarations 
+        varbuttonNext,varbtnExit,string studentname and appname,string studentumber,app logo
+        if btnNext is clicked 
+        display mainscreen 
+        else exit the app 
+        calculate the average 
+        show the array data of the week 
+        stop
+
+
+
+
