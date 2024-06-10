@@ -43,7 +43,16 @@ pseudocode
         else exit the app 
         calculate the average 
         show the array data of the week 
-        stop
+        stop 
+
+
+
+
+![image](https://github.com/SIPHESIHLE1705/PRCTRIUM/assets/162302326/c4fb2fc9-cfc3-45c8-8e8b-28acb7d8ca93)
+
+
+
+         
 
 
 
