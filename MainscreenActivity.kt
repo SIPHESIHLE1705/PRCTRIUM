@@ -21,8 +21,7 @@ class MainActivity : AppCompatActivity() {
         val txtMaxTemperature=findViewById(R.id.txtMaxTemperature)
         val btnDisplay: Button =findViewById(R.id.btnDisplay)
         val btnClear:Button =findViewById(R.id.btnClear)
-        val btnNext:Button=findViewById(R.id.btnNext)
-        val btnCalculateaverage: Button =findViewById(R.id.btnCalculateAverage)
+     val btnCalculateaverage: Button =findViewById(R.id.btnCalculateAverage)
 
 
         val days=arrayOf("Monday","Tuesday","Wednesday","Thursday","Friday","saturday","Sunday")
